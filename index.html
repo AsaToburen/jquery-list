@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link href='http://fonts.googleapis.com/css?family=Signika+Negative:400,600' rel='stylesheet' type='text/css'>
+	<title>Simple jQuery List</title>
+</head>
+ <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<body>
+  <div class="wrapper">
+  <header>
+    <h1>Shopping List</h1>
+  </header>
+  <section class="main">
+    <section class="left">
+      <div class="entry-field">
+       <input id="item" type="text"/>
+        <button></button>
+      </div>
+    </section>
+    <section class="right" id="theList">
+       <ul class="entry">
+          <li class="remove"></li>
+          <li class="item"><p>Bananas</p></li>
+          <li class="cross-off"></li>
+      </ul>
+       <ul class="entry">
+          <li class="remove"></li>
+          <li class="item"><p>Bananas</p></li>
+          <li class="cross-off"></li>
+      </ul>
+    </section>
+  </section>
+  </div>
+<script src="js/app.js"></script>
+</body>
+</html>
