@@ -4,7 +4,8 @@ $(document).ready(function(){
 		var shoppingItem = $( 'input' ).val();
 		
 		$('#theList').append('<ul class="entry"><li class="remove"></li><li class="item"><p>' + shoppingItem  +'</p></li><li class="cross-off"></li></ul>'); 
-			}); 
+			$( 'input' ).val('');
+			});
 			})
 
 			$("#theList").on('click','.cross-off', function() {
